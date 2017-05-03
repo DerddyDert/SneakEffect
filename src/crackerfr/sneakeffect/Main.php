@@ -23,6 +23,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerToggleSneakEvent;
 use pocketmine\entity\Effect;
+use pocketmine\permission\ServerOperator;
 
 class Main extends PluginBase implements Listener {
     
